@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fwee Candy</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <script type="text/javascript">
+		var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000);
+	</script>
+        <div id="container">
+            <header>
+                <h1>
+                The Candy Vann
+                </h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Cryb</a></li>
+                    <li><a href="about.html">abut me</a></li>
+                    <li><a href="product.html">te stuffz</a></li>
+                    <li><a class = "active" href="contact.html">fnd mii</a></li>
+                </ul>
+            </nav>
+            <!-- WebPage Comment -->
+            <div id="content">
+                <h2>Find me I dare yoo</h2>
+                <form id="form-contact">
+                    First Name:<br>
+                    <input type="text" name="first-name">
+                    <br>
+                    Last Name:<br>
+                    <input type="text" name="last-name">
+                    <br>
+                    Favorite Color:<br>
+                    <input type="color" name="color" >
+                    <br>
+                    Bank account number:<br>
+                    <input type="password" name="bank" >
+                    <br>
+                    Check if you are older than 62:<br>
+                    <input type="checkbox" name="12" >
+                    <br>
+                    send mi how many pankakes you ate today:<br>
+                    <input type="range" name="time" >
+                    <br>
+                    <br>
+                    A five paragraph essay about candy: <br>
+                    <textarea name="message" rows="10" cols=100% ></textarea>
+                    
+                </form>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.8398230355865!2d-111.88984719881012!3d40.769070194476406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2ea0288bd04e2f6!2sChick-fil-A!5e0!3m2!1sen!2sus!4v1507750214627" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                
+                </div>
+                 <button>Send</button>
+            </div>
+            <footer>
+            Copyright&copy; 2017 Fr33 C4nD33z LLC.
+            </footer>
+        </div>
+    </body>
+</html>

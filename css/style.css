@@ -1,0 +1,243 @@
+/* stylesheet for meeeeee */
+
+body{
+background-color: red;
+transition: background-color 1s;
+/*
+background-image: url("../images/candy-background.gif");    
+background-size: 200px;
+*/
+}
+div#container{
+    margin:auto;
+    width: 1024px;
+    background-color: ghostwhite;
+/*
+    background-image: url("/images/candy-background.gif");
+    background-size:80px;
+*/
+    
+}
+header{
+    display:block;
+    width: 100%;
+    background-color: #FCE4EC;
+    height: 140px;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    background-image: url("../images/c_16b1ae86769eca54fe231c65c01ceb33_By-Type.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    
+    
+}
+header h1 {
+    color: #FCE4EC;
+    
+    text-shadow: 1px 1px 10px black;
+    
+    
+    text-align: center;
+    margin-top: 0px;
+    font-size: 75px;
+}
+nav{
+    background-color: black;
+    box-shadow: 0px 0px 2px black;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    clear:both;
+    float: left;
+    
+}
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    color:white;
+    
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav ul li a:hover {
+    background-color: #D81B60;
+}
+
+nav .active{
+    background-color: #880E4F;
+
+}
+
+
+.keepOpen{
+    clear:both;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* index.html sytle */
+#imgMain{
+    width: 600px;
+    display: block;
+    margin:10px;
+    float: left;
+    border: 8px inset #F50057;
+        
+}
+
+p{
+    color:black;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+/*    float: right;*/
+/*    width: 10%;*/
+}
+
+h2{
+    margin-left: 10px;
+    float:left;
+    width:  100%;
+    color:#F50057;
+    text-shadow: 0px 0px 2px #F50057;
+    font-family: 'Cedarville Cursive', cursive;
+}
+#crazyManPic{
+    width: 700px;
+    display: block;
+    margin:10px;
+    float: left;
+    border: 8px inset #F50057;
+        
+}
+
+#content{
+    clear: both;
+}
+
+#drugsAreBad{
+    color: black;
+}
+
+
+#drugsPage{
+    background-color: white;
+}
+
+#main{
+    
+}
+
+figure{
+   
+    width: 240px;
+    height: 230px;
+    
+    float: left;
+    margin: none;
+    flex: 0 0 25%;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5db1+0,ef017c+100;Pink+3D+%231 */
+background: #ff5db1; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff5db1 0%, #ef017c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff5db1 0%,#ef017c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff5db1 0%,#ef017c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c',GradientType=0 ); /* IE6-9 */
+    
+
+    
+}
+figure img{
+    width: 220px;
+    height: 170px;
+    padding: 10px;
+    margin: auto;
+    float: left;
+    
+    
+    
+    
+}
+figcaption{
+    text-align: center;
+    
+    color: ghostwhite;
+    padding: 10px;
+    
+}
+#gallery{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+/*    float: left;*/
+    clear: both;
+    background-color: black;
+}
+
+/* contact */
+#form-contact{
+    margin-left: 15px;
+    
+    
+}
+form input{
+    margin-bottom: 10px;
+}
+button{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 30px;
+}
+#map{
+    margin-left: 15px;
+    float
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
